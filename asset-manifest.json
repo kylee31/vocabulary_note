@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/vocabulary_note/static/css/main.eba30d13.css",
+    "main.js": "/vocabulary_note/static/js/main.3191d77e.js",
+    "static/js/787.abc9613b.chunk.js": "/vocabulary_note/static/js/787.abc9613b.chunk.js",
+    "index.html": "/vocabulary_note/index.html",
+    "main.eba30d13.css.map": "/vocabulary_note/static/css/main.eba30d13.css.map",
+    "main.3191d77e.js.map": "/vocabulary_note/static/js/main.3191d77e.js.map",
+    "787.abc9613b.chunk.js.map": "/vocabulary_note/static/js/787.abc9613b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.eba30d13.css",
+    "static/js/main.3191d77e.js"
+  ]
+}
