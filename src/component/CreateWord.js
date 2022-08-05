@@ -1,14 +1,13 @@
 import React, { useState, useRef } from "react";
 import useFetch from "../hooks/useFetch";
 import { useNavigate } from "react-router";
-import { IDay } from "./DayList";
 
 export default function CreateWord() {
-    const days:IDay[] = useFetch("http://localhost:3001/days");
+    const days = useFetch("http://localhost:3001/days");
     const history = useNavigate();
     const [isLoading, setIsLoading] = useState(false);
 
-    function onSubmit(e : React.FormEvent) {
+    function onSubmit(e) {
         e.preventDefault();
 
         if (!isLoading && dayRef.current &&engRef.current&&korRef.current) {
@@ -41,9 +40,9 @@ export default function CreateWord() {
     }
 
     //dom에 접근할 수 있도록 해줌
-    const engRef = useRef<HTMLInputElement>(null);
-    const korRef = useRef<HTMLInputElement>(null);
-    const dayRef = useRef<HTMLSelectElement>(null);
+    const engRef = useRef(null);
+    const korRef = useRef(null);
+    const dayRef = useRef(null);
 
     return (
         <form onSubmit={onSubmit}>
