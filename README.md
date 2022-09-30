@@ -1,4 +1,4 @@
-# 📚 단어장
+# 📖 단어장
 React, json-server를 사용한 단어장 웹 페이지(2022)
 <br><br>
 
@@ -16,4 +16,4 @@ json-server를 활용하여 동작하는 웹 페이지 제작 (클론코딩)
 
 > **velog 정리**
 
-https://velog.io/@kylee31/Todo-List-%ED%81%B4%EB%A1%A0%EC%BD%94%EB%94%A9
+https://velog.io/@kylee31/React
